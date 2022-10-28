@@ -21,3 +21,6 @@ im testing on my personal computer which test on device:
 - 32 GB of Ram Model F4-4000C17D-32GTZRB Z 4000 Mhz
 - Geforce RTX 3090 24GB
 
+## output result
+![output of demo castle render](./output/demo-castle.gif
+
