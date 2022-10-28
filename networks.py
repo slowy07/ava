@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn import init
 import functools
 from torchvision import models
-from torch.optim import lr_schedule
+from torch.optim import lr_scheduler
 import math
 import utils
 import matplotlib.pyplot as plt
