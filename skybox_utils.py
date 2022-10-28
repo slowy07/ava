@@ -1,7 +1,6 @@
 import cv2
 from networks import *
 from sklearn.neighbors import KernelDensity
-import numpy as np
 
 
 def build_transformation_matrix(transform):
@@ -60,7 +59,7 @@ def check_dy_dx_da(dy, dx, da, d_max=20.0, d_min=-20.0):
     return dx, dy, da
 
 
-def removeOutliners(prev_pts, curr_pts):
+def removeOutliers(prev_pts, curr_pts):
     d = np.sum((prev_pts - curr_pts) ** 2, axis=-1) ** 0.5
 
     d_ = np.array(d).reshape(-1, 1)
