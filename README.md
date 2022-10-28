@@ -22,5 +22,6 @@ im testing on my personal computer which test on device:
 - Geforce RTX 3090 24GB
 
 ## output result
-![output of demo castle render](./output/demo-castle.gif
+
+![output of demo castle render](./output/demo-castle.gif?raw=true)
 
