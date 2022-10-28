@@ -63,7 +63,7 @@ def removeOutliers(prev_pts, curr_pts):
     d = np.sum((prev_pts - curr_pts) ** 2, axis=-1) ** 0.5
 
     d_ = np.array(d).reshape(-1, 1)
-    kde = KernelDensity(kernel="gaussian", bandwith=0.5).fit(d_)
+    kde = KernelDensity(kernel='gaussian', bandwidth=0.5).fit(d_)
     density = np.exp(kde.score_samples(d_))
 
     prev_pts = prev_pts[np.where((density >= 0.1))]
