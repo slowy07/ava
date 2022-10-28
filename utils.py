@@ -1,13 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-from skimage.measure import compare_ssim as sk_ckpt_ssim
+from skimage.measure import compare_ssim as sk_cpt_ssim
 
 import os
-import glob
-import random
-
-import torch
 import glob
 import random
 
@@ -16,7 +12,7 @@ import torch
 if torch.cuda.is_available():
     torch.cuda.current_device()
 
-import torchvision.transform.functional as TF
+import torchvision.transforms.functional as TF
 from torch.utils.data import Dataset, DataLoader, Subset
 from torchvision import transforms, utils
 
