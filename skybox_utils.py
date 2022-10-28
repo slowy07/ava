@@ -29,7 +29,7 @@ def estimate_partial_transform(matched_keypoints):
     prev_matched_kp, cur_matched_kp = matched_keypoints
 
     transform = cv2.estimateAffinePartial2D(
-        np.array(prev_matched_kp), np.array(curr_matched_kp)
+        np.array(prev_matched_kp), np.array(cur_matched_kp)
     )[0]
 
     if transform is None:
