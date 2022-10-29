@@ -25,3 +25,10 @@ im testing on my personal computer which test on device:
 
 ![output of demo castle render](./output/demo-castle.gif?raw=true)
 
+
+## performance
+| resoulution | speed per fps (read) | 
+| :--------: | :------------------: |
+| 640×360 | 25.03 |
+| 854×480 | 20.92 |
+| 1280×720 | 19.72 |
