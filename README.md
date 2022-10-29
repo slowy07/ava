@@ -24,6 +24,7 @@ im testing on my personal computer which test on device:
 ## output result
 
 ![output of demo castle render](./output/demo-castle.gif?raw=true)
+![output of demo supermoon](./output/demo-supermoon.gif)
 
 
 ## performance
