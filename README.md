@@ -21,7 +21,7 @@ https://github.com/slowy07/paper/blob/main/Ava.pdf
 ### locally
 you can clone the project and run it locally
 
-donwload checkpoints_G_coord_resnet50 [here](https://drive.google.com/u/0/uc?id=1COMROzwR4R_7mym6DL9LXhHQlJmJaV0J&export=download)
+download checkpoints_G_coord_resnet50 [here](https://drive.google.com/u/0/uc?id=1COMROzwR4R_7mym6DL9LXhHQlJmJaV0J&export=download)
 ```bash
 git clone https://github.com/slowy07/ava
 cd ava
@@ -34,7 +34,7 @@ python skymagic.py --path ./config/config-canyon-district9ship.json
 python skymagic.py --path ./config/config-annarbor-supermoon.json
 ```
 
-or you can use custom image and custom config json by configuration the json by:
+or you can use custom image by configuring the json configuration file like so:
 ```json
 // config-custom-replacement.json
 {
@@ -87,8 +87,7 @@ python train.py \
 
 
 ### online
-<!-- or  -->
-run it online using google colab, you can check it out at [ava google colab](https://colab.research.google.com/drive/1Hgi09hung57bnNIun4L7n93LpEb-beLk?usp=sharing) or copy paste the link directly
+or run it online using google colab, you can check it out at [ava google colab](https://colab.research.google.com/drive/1Hgi09hung57bnNIun4L7n93LpEb-beLk?usp=sharing) or copy paste the link directly
 ```
 https://colab.research.google.com/drive/1Hgi09hung57bnNIun4L7n93LpEb-beLk?usp=sharing
 ```
